@@ -1,0 +1,65 @@
+#showmenu{
+  display:none;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+}
+#showmenu:hover{
+  color: white;
+  background-color: black;
+}
+#hidedlist{
+  list-style-type: none;
+  padding: 0;
+}
+#hidedmenu{
+  background-color: white;
+  position: fixed;
+  width: 200px;
+  top: 0px;
+  bottom: 0px;
+  right: -205px;
+  padding: 0px;
+  z-index: 1;
+  box-shadow: -2px 0px 10px black;
+}
+.hidedlink{
+  text-decoration: none;
+  color: rgb(87, 87, 87);
+  font-family: verdana;
+  font-size: 15px;
+  padding: 10px;
+  display: block;
+  border-bottom: 2px solid rgb(87, 87, 87);
+}
+.hidedlink:hover{
+  background: grey;
+  color: white;
+}
+#hide{
+  border: none;
+  outline: none;
+  padding: 5px;
+  width: 100%;
+  text-align: left;
+  color: rgb(87, 87, 87);
+  background: white;
+}
+#hide:hover{
+  background: grey;
+  color: white;
+}
+#hidedlogo{
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 890px){  
+  #showmenu{
+    display: inline;
+  }
+}

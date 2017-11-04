@@ -1,0 +1,49 @@
+#footerbot{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 70px;
+  background-color: rgb(87, 87, 87);
+}
+#vkon{
+  display: inline-block;
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+}
+#vkon a{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 22%;
+  top: 3px;
+}
+#twit{
+  display: inline-block;
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+}
+#twit a{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 22%;
+  top: 3px;
+}
+#face{
+  display: inline-block;
+  border: 2px solid white;
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+}
+#face a{
+  margin: 0;
+  padding: 0;
+  position: relative;
+  left: 30%;
+  top: 3px;
+}
